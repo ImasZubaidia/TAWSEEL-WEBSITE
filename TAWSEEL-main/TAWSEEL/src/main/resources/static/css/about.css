@@ -1,0 +1,101 @@
+body{
+padding:0;
+margin: 0 2%;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+nav ul{
+    background: linear-gradient(90deg,#6FA287 0%, #007377 50%, #647692 100%);
+    color: #000000;
+    padding: 30px;
+    border-radius: 1px;
+    display: flex;
+    list-style-type: none;
+    justify-content: right;
+    padding-top: 2%;
+    margin-left: 0%;
+    width: 100%;
+    margin-top: -3%;
+    box-shadow: #6FA287 1.95px 1.95px 2.6px;
+    gap: 10%;
+/*     border-radius: 30px;  */
+    margin-right: 0%;
+}
+nav li a {
+    font-size: 132%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    margin-top: 3%;
+    justify-content: center;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 7px;
+}
+.profile-icon{
+    width: 168px;
+    height: 103px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -107px;
+}
+
+.logo {
+    position: fixed;
+    background-color: var(--darkBlack);
+    color: var(--lightGrey);
+    width: 100%;
+    text-align: center;
+    padding: 15px 420px 15px 60px;
+    top: 0;
+    z-index: 2;
+}
+.contact{
+    min-height: 100vh;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background:url(/images/about.jpeg);
+    background-size: cover;
+
+}
+.contactForm{
+    width:40%;
+    padding:40px;
+    background:rgba(255,255,255,0.1);
+    border-radius:15px;
+    backdrop-filter: blur(10px);
+}
+.contactForm span{
+    font-size: 35px;
+}
+.contactForm p{
+    font-size:18px;
+    font-weight: bold;
+    color:black;
+    text-align: left;
+}
+.content{
+    display:flex;
+    flex-direction: column;
+    /* margin-right: 50px;
+    margin-top: 40px; */
+    margin:100px;
+}
+.content p{
+    font-size: 20px;
+}
+.media i{
+    font-size: 30px;
+    
+}

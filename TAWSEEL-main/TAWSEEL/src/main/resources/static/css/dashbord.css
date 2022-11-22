@@ -1,0 +1,223 @@
+ body{
+	background: #D0D3D4;
+	margin:0 3%;
+}
+
+
+* {
+    font-family: monospace;
+    
+}
+
+
+:root {
+    --mainColor:#f6f8fa;
+    --darkBlack:#2d2f31;
+    --darkGrey:#61666b;
+    --grey: #d5d5d5;
+    --lightGrey: #f2f2f2;
+    --yellow: #fecb40;
+    --red: #df113c;
+}
+
+/* NAV BAR */
+nav ul{
+    background: linear-gradient(90deg,#6FA287 0%, #007377 50%, #647692 100%);
+    color: #000000;
+    padding: 20px;
+    border-radius: 1px;
+    display: flex;
+    list-style-type: none;
+    justify-content: right;
+    padding-top: 2%;
+    margin-left: 0%;
+    width: 100%;
+    margin-top: -3%;
+    box-shadow: #6FA287 1.95px 1.95px 2.6px;
+    gap: 10%;
+	border-radius:1.5rem;
+    margin-right: 0%;
+}
+nav li a {
+    font-size: 132%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    margin-top: 3%;
+    justify-content: center;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 7px;
+    
+    /* margin-top: -1%; */
+}
+/* ---------------------------------------------------------------------------- */
+
+/* LOGO */
+.profile-icon{
+    width: 168px;
+    height: 103px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -107px;
+}
+
+.logo {
+    position: fixed;
+    background-color: var(--darkBlack);
+    color: var(--lightGrey);
+    width: 100%;
+    text-align: center;
+    padding: 15px 420px 15px 60px;
+    top: 0;
+    z-index: 2;
+}
+/* ---------------------------------------------------------------------------- */
+
+/* MANY THINGS ARE RECOMENDED FOR YOU*/
+
+p {
+    font-size: 14px;
+}
+
+select{
+	
+width: 17%;
+	
+height: 5%;
+	
+color: #34657F;
+	
+font-weight: bold;
+	
+background: white;
+	
+margin-left: 21%;
+}
+
+/* ---------------------------------------------------------------------------- */
+/* DASHBOARD*/
+.dashboard {
+    width: 100%;
+    margin-left: 1%;
+}
+
+.dashboard-banner {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin-top: 1%;
+    justify-content: center;
+    border-radius: 30px;
+    cursor: pointer;
+    background-image:url(/images/images-banner.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.dashboard-banner h1 {
+position: absolute;
+  color: var(--lightGrey);
+  top: 18%;
+  left: 14%;
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+.dashboard-banner > h1 > span {
+    color: var(--yellow);
+    font-size: 3.5rem;
+}
+
+.dashboard-title {
+    padding: 0 3rem;
+    /* margin: 3%; */
+    margin-left: 28%;
+}
+
+h3.dashboard-title {
+    font-size: 3rem;
+    color:#165C7D;
+    margin-bottom: 4%;
+}
+
+.dashboard-menu {
+    display: flex;
+    gap: 10px;
+    padding: 0.3rem 1rem;
+    overflow-x: auto;
+}
+
+.dashboard-menu > a {
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+    min-width: 120px;
+    padding: 0.5rem 0;
+    font-size: 0.9rem;
+    color: var(--darkBlack);
+    background-color: var(--lightGrey);
+}
+
+.dashboard-menu > a:hover {
+    background-color: var(--red);
+    color: var(--lightGrey);
+}
+
+.dashboard-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0.5rem 6rem 1rem 6rem;
+    margin-top: 0%;
+}
+
+
+/* ---------------------------------------------------------------------------- */
+
+/* CARDS*/
+.dashboard-card {
+    background-color: var(--mainColor);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer; 
+}
+
+.dashboard-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.card-detail {
+    padding: 10px;
+    color: #165C7D;
+    font-size: 150%;
+}
+
+.card-detail > h4 > span {
+    float: right;
+}
+
+.card-time {
+    color: var(--darkGrey);
+    font-size: 0.8rem;
+    padding-top: 10px;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+
+
+
+ 
